@@ -1,0 +1,61 @@
+.figure{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    border: 1px solid #9999;
+}
+.figure__circle{
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    border: 1px solid #ee220c;
+    border-radius: 50%;
+    background: #ee220c;
+    transition: .9s;
+}
+.lcircle--left-top{
+    top: 0;
+    left: 0;
+}
+.circle--left-bottom{
+    left: 0;
+    bottom: 0;
+}
+.circle--right-top{
+    right: 0;
+    top: 0;
+}
+.circle--right-bottom{
+    right: 0;
+    bottom: 0;
+}
+.square-orange{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    height: 70%;
+    width: 70%;
+    background: #00a2ff;
+    transition: .9s;
+     
+
+}
+.square-blue{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 30%;
+    width: 30%;
+    background: #f8ba00;  
+    border-radius: 10%;
+}
+.figure__circle:hover{
+    z-index: 50;
+    background: #f8ba00;
+    
+}
+.square-orange:hover{
+    z-index: 50;
+    background: #f8ba00;
+}
